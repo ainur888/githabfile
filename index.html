@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html file</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    .navbar{
+       
+        background: orange;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        align-items: center;
+        font-size: 20px;
+       
+    }
+     
+    }
+    .nav-list{
+        list-style-type: none;
+        text-align: right;
+    }
+    .navbar .nav-list .nav-item{
+        display: inline-block;
+       
+    }
+    .navbar .nav-list .nav-item a{
+        text-decoration: none;
+        padding: 5px;
+        border-right: 3px solid black;
+        margin-right: 12px;
+    }
+    .navbar .nav-list .nav-item a:hover{
+        background: red;
+        color: white;
+       
+    }
+    .image1{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 14px 20px;
+    }
+    div input,button{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .division1{
+        width: 300px;
+        height: 450px;
+        border:1px solid gray;
+        margin: 50px 50px;
+        padding: 10px;
+        background: rgb(110, 114, 110);
+        color: white;
+        box-shadow: 5px 5px 5px rgb(165, 56, 56);
+    }
+    .img2{
+        width: 200px;
+        margin: 10px 40px;
+
+    }
+    .division1 h3{
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+    .division1 button{
+        background: rgb(28, 122, 160);
+        color: white;
+        margin-top: 20px;
+    }
+    .division1{
+        float: left;
+    }
+    
+    }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+           <a href="#"><img class="image1" src="file1.jpg" alt="image"></a> 
+        </div>
+
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#">Home</a></li>
+            <li class="nav-item">
+                <a href="#">Service</a></li>
+            <li class="nav-item">
+                <a href="#">News</a></li>
+            <li class="nav-item">
+                <a href="#">Discover</a></li>
+            <li class="nav-item">
+                <a href="#">Contact</a></li>
+        </ul>
+
+        <div>
+            
+        <input type="search" placeholder="search">
+        <button type="button">Search</button>
+        </div>
+
+    </nav>
+    <div>
+        <div class=" div division1">
+             <img class="img2" src="file2.png" alt="logofile">
+            <h3>Demo</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quidem ullam illo autem optio qui 
+               repudiandae similique sunt esse quam maxime? Doloremque sit architecto eveniet eum temporibus porro
+               minus?
+            </p>
+            <button type="button">Read me</button>
+        </div>
+    </div>
+    <div class="division1">
+        <img class="img2" src="file2.png" alt="logofile">
+       <h3>Demo</h3>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quidem ullam illo autem optio qui 
+          repudiandae similique sunt esse quam maxime? Doloremque sit architecto eveniet eum temporibus porro
+          minus?
+       </p>
+       <button type="button">Read me</button>
+   </div>
+   <div class="division1">
+    <img class="img2" src="file2.png" alt="logofile">
+   <h3>Demo</h3>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, quidem ullam illo autem optio qui 
+      repudiandae similique sunt esse quam maxime? Doloremque sit architecto eveniet eum temporibus porro
+      minus?
+   </p>
+   <button type="button">Read me</button>
+</div>
+</div>
+
+    
+</body>
+</html>
